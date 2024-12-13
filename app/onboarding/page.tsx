@@ -57,7 +57,7 @@ export default function Onboarding() {
                   name={fields.firstName.name}
                   key={fields.firstName.key}
                   defaultValue={fields.firstName.initialValue}
-                  placeholder="John"
+                  placeholder="Bittu"
                 />
                 <p className="text-red-500 text-sm">
                   {fields.firstName.errors}
@@ -69,7 +69,7 @@ export default function Onboarding() {
                   name={fields.lastName.name}
                   key={fields.lastName.key}
                   defaultValue={fields.lastName.initialValue}
-                  placeholder="Doe"
+                  placeholder="Singh"
                 />
                 <p className="text-red-500 text-sm">{fields.lastName.errors}</p>
               </div>
