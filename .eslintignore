@@ -1,0 +1,14 @@
+# Generated files
+*.generated.ts
+*.generated.tsx
+
+# Build output
+.next
+out
+dist
+
+# Third party components
+/components/ui/calendar.tsx
+/components/ui/chart.tsx
+/components/ui/rainbow-button.tsx
+
