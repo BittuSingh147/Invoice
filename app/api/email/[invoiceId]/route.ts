@@ -35,7 +35,7 @@ export async function POST(
     emailClient.send({
       from: sender,
       to: [{ email: "19bcs1715@gmail.com" }],
-      template_uuid: "19bcs1715@gmail.com",
+      template_uuid: "08250b61-8080-4112-8b27-571c5c53c9fc",
       template_variables: {
         first_name: invoiceData.clientName,
         company_info_name: "InvoiceSpace",
